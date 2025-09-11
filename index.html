@@ -22,7 +22,7 @@
         </nav>
 
         <section id="home">
-    <img src="assets/logo.jpeg" alt="">
+    <img src="assets/logos/logo.jpeg" alt="">
     <div class="info-box">
         <h3><span>Full Stack Developer</span></h3>
         <p>
@@ -47,7 +47,7 @@
 
                 <div class="timeline-item">
                     <div class="card">
-                    <img src="assets/nanicas.jpeg" alt="Nanicas Logo" class="company-logo">
+                    <img src="assets/logos/nanicas.jpeg" alt="Nanicas Logo" class="company-logo">
                     <h3>Desenvolvedor <span class="company">Nanicas</span></h3>
                     <p class="date">Mai 2025 – Presente</p>
                     <p class="desc">Backend e manutenção de sistemas.</p>
@@ -56,7 +56,7 @@
 
                 <div class="timeline-item">
                     <div class="card">
-                    <img src="assets/harmonit.jpeg" alt="Harmonit Logo" class="company-logo">
+                    <img src="assets/logos/harmonit.jpeg" alt="Harmonit Logo" class="company-logo">
                     <h3>Estagiário <span class="company">Harmonit</span></h3>
                     <p class="date">Jul 2024 – Abr 2025</p>
                     <p class="desc">Programação e desenvolvimento em C# e Dart. Frameworks: Flutter e Maui</p>
@@ -65,7 +65,7 @@
 
                 <div class="timeline-item">
                     <div class="card">
-                    <img src="assets/garen.jpeg" alt="Garen Logo" class="company-logo">
+                    <img src="assets/logos/garen.jpeg" alt="Garen Logo" class="company-logo">
                     <h3>Helpdesk <span class="company">Garen</span></h3>
                     <p class="date">Abr 2024 – Mai 2024</p>
                     <p class="desc">Suporte técnico a usuários.</p>
@@ -74,7 +74,7 @@
 
                 <div class="timeline-item">
                     <div class="card">
-                    <img src="assets/fulltime.jpeg" alt="Fulltime Logo" class="company-logo">
+                    <img src="assets/logos/fulltime.jpeg" alt="Fulltime Logo" class="company-logo">
                     <h3>Suporte Técnico <span class="company">Fulltime</span></h3>
                     <p class="date">Abr 2018 – Abr 2019</p>
                     <p class="desc">Atendimento e suporte em softwares.</p>
@@ -88,7 +88,7 @@
 
                     <div class="timeline-item">
                         <div class="card">
-                            <img src="assets/fatec.jpeg" alt="Fatec Logo" class="company-logo">
+                            <img src="assets/logos/fatec.jpeg" alt="Fatec Logo" class="company-logo">
                             <h3><span class="company">Fatec</span> – ADS</h3>
                             <p class="date">2023 – Presente</p>
                             <p class="desc">Graduação em desenvolvimento de sistemas.</p>
@@ -97,7 +97,7 @@
 
                     <div class="timeline-item">
                         <div class="card">
-                            <img src="assets/alura.png" alt="Alura Logo" class="company-logo">
+                            <img src="assets/logos/alura.png" alt="Alura Logo" class="company-logo">
                             <h3><span class="company">Alura</span> – Cursos Tech</h3>
                             <p class="date">2023 – 2025</p>
                             <p class="desc">Foco em backend e boas práticas.</p>
@@ -106,7 +106,7 @@
 
                     <div class="timeline-item">
                         <div class="card">
-                            <img src="assets/udemy.png" alt="Udemy Logo" class="company-logo">
+                            <img src="assets/logos/udemy.png" alt="Udemy Logo" class="company-logo">
                             <h3><span class="company">Udemy</span> – Cursos Tech</h3>
                             <p class="date">2022 – 2024</p>
                             <p class="desc">Programação e arquitetura de software.</p>
@@ -115,7 +115,7 @@
 
                     <div class="timeline-item">
                         <div class="card">
-                            <img src="assets/Youtube.png" alt="Youtube Logo" class="company-logo">
+                            <img src="assets/logos/Youtube.png" alt="Youtube Logo" class="company-logo">
                             <h3><span class="company">Youtube</span> – Cursos Tech</h3>
                             <p class="date">2022 – 2025</p>
                             <p class="desc">Tutoriais práticos de desenvolvimento.</p>
@@ -132,7 +132,7 @@
 
                 <div class="box">
                     <a href="https://github.com/fabionunespedro/php-games-api" target="_blank">
-                        <img src="assets/games.png" alt="Ícone de espada">
+                        <img src="assets/projects/games.png" alt="Ícone de espada">
                         <div>
                             <h1><span>PHP Games API</span></h1>
                             <p>API desenvolvida em Laravel para integração e consumo de dados de jogos.</p>
@@ -142,7 +142,7 @@
 
                 <div class="box">
                     <a href="https://github.com/fabionunespedro/php-laravel-authenticator" target="_blank">
-                        <img src="assets/authenticator.png" alt="Ícone de código">
+                        <img src="assets/projects/authenticator.png" alt="Ícone de código">
                         <div>
                             <h1><span>PHP Laravel Authenticator</span></h1>
                             <p>Autenticação em Laravel com foco em segurança e validação de usuários.</p>
@@ -152,7 +152,7 @@
 
                 <div class="box">
                     <a href="https://github.com/fabionunespedro/php-laravel-bearer-token" target="_blank">
-                        <img src="assets/token.png" alt="Ícone de cadeado">
+                        <img src="assets/projects/token.png" alt="Ícone de cadeado">
                         <div>
                             <h1><span>PHP Laravel Bearer Token</span></h1>
                             <p>Implementação de autenticação por Bearer Token em Laravel para proteger APIs.</p>
@@ -163,26 +163,29 @@
             </div>
         </section>
 
-        <!--CONTATO-->
-        <section id="contact">
+      <!--CONTATO-->
+      <section id="contact">
         <h2 class="header">CONTATO</h2>
 
-        <form class="contact-form">
+        <form id="contact-form" class="contact-form">
             <div class="form-group">
-            <input type="text" name="firstName" placeholder="Primeiro nome" required>
-            <input type="text" name="lastName" placeholder="Sobrenome" required>
+                <input type="text" name="firstName" placeholder="Primeiro nome" required>
+                <input type="text" name="lastName" placeholder="Sobrenome" required>
             </div>
 
             <div class="form-group">
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="tel" name="mobile" placeholder="Celular" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="mobile" placeholder="Celular" required>
             </div>
 
             <textarea name="message" placeholder="Sua Mensagem" required></textarea>
 
             <button type="submit" class="btn-contact">Enviar</button>
         </form>
+
+        <div id="form-message" class="hidden"></div>
         </section>
+
 
         <!--FOOTER-->
         <footer class="footer-moderno">
@@ -190,15 +193,14 @@
                 <p class="copyright">© 2025 Fábio Nunes</p>
                 <div class="social-links">
                     <a href="https://github.com/fabionunespedro" target="_blank" aria-label="GitHub">
-                        <img src="assets/github.png" alt="GitHub">
+                        <img src="assets/logos/github.png" alt="GitHub">
                     </a>
                     <a href="https://www.linkedin.com/in/fabio-nunes-pedro/" target="_blank" aria-label="LinkedIn">
-                        <img src="assets/linkedin.png" alt="LinkedIn">
+                        <img src="assets/logos/linkedin.png" alt="LinkedIn">
                     </a>
                 </div>
             </div>
         </footer>
-
-
+<script src="script.js"></script>
 </body>
 </html>

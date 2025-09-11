@@ -420,7 +420,7 @@ nav .links li a::after {
 
 .btn-contact:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+  box-shadow: 0 0 15px rgba(89, 140, 194, 0.6);
 }
 
 @media (max-width: 650px) {
@@ -432,6 +432,38 @@ nav .links li a::after {
   .contact-form {
     padding: 20px;
   }
+}
+
+#form-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.3s ease;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+#form-message.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#form-message.error {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* degrade vermelho */
+}
+
+.hidden { 
+    display: none; 
 }
 
 /* ===== FOOTER ===== */
