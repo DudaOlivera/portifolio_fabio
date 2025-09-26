@@ -54,13 +54,13 @@ Para visualizar o projeto em sua máquina local, siga os passos abaixo:
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/DudaOlivera/portifolio_fabio.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
 
     ```bash
-    cd nome-do-repositorio
+    cd portifolio_fabio
     ```
 
 3.  **Abra o arquivo `index.html`:**
