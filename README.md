@@ -2,7 +2,7 @@
 
 Este é o repositório do portfólio pessoal de Fábio Nunes, um Desenvolvedor Full Stack. O projeto foi criado como uma página única (Single Page Application) para apresentar suas habilidades, experiências profissionais, formação acadêmica e projetos de forma moderna, limpa e responsiva.
 
-**➡️ Veja o portfólio no ar: https://dudaolivera.github.io/portifolio_fabio/
+➡️ Veja o portfólio no ar: https://dudaolivera.github.io/portifolio_fabio/
 
 ## 📖 Sobre o Projeto
 
